@@ -2,8 +2,9 @@ args: 3
 	a: the number
 	b: initial base to interpret the number
 	c: target base to convert to
-return: number
+return: number (or string if error)
 	the appropriately converted number
+	or an error
 behavior:
 	interprets "a" as a number in base "b". then converts it to base "c" & returns that value. 
 
