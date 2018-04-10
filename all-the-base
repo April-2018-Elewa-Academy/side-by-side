@@ -8,7 +8,7 @@ return: number (or string if error)
 behavior:
 	interprets "a" as a number in base "b". then converts it to base "c" & returns that value. 
 
-test cases:
+illustrative but not exclusive test cases, generalize!
 	all_the_base(10,10,10) -> 10
 	all_the_base(10,2,10) -> 2
 	all_the_base(10,10,2) -> 1010
