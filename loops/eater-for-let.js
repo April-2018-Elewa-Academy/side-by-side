@@ -1,17 +1,12 @@
 
 function eater(all_meals) {
 	let returner = [];
-	let day_cs = 0;
-	let meal = 0;
 
-	while (day_cs < 7) { // 7 days
-		while (meal < 3) { // 3 meals
-			all_meals[day_cs][meal] = "clean plate"
-			meal++;
+	for (let day = 0; day < 7; day++) {
+		for (let meal = 0; meal < 3; meal++) {
+			all_meals[day][meal] = "clean plate"
 		}
-		meal = 0;
 		returner.push("pooo");
-		day_cs++;
 	}
 	console.log(all_meals);
 
