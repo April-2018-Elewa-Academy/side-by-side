@@ -2,12 +2,13 @@ args: 3
 	a: the number
 	b: initial base to interpret the number
 	c: target base to convert to
-return: number
+return: number (or string if error)
 	the appropriately converted number
+	or an error
 behavior:
 	interprets "a" as a number in base "b". then converts it to base "c" & returns that value. 
 
-test cases. not exhaustive, generalize!:
+illustrative but not exclusive test cases, generalize!
 	all_the_base(10,10,10) -> 10
 	all_the_base(10,2,10) -> 2
 	all_the_base(10,10,2) -> 1010
