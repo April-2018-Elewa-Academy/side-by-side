@@ -1,0 +1,15 @@
+strategy:
+	1. convert each number separately to binary strings
+	2. add the binary strings
+
+
+1. convertToBinaryStr
+	0. initiations
+	1. determine how many digits the answer will have (line 8)
+	2. use a fixed-length for loop to determine what each empty slot should be
+
+
+2. binaryStrAddition
+	0. initializations
+	1. 
+	2. an if

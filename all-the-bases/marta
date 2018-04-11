@@ -1,0 +1,7 @@
+a: 
+	for loop somehow interprets the first base
+		number_position:
+			tracking how far you are through the number of the digits in the input
+		i
+b: 
+	convert to target base with native method

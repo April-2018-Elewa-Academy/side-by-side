@@ -1,0 +1,10 @@
+function base2base (n, base1, base2){
+    var ourNumber = 0;
+    for (var number_position= n.length - 1, i = 0; number_position >= 0; -- number_position, i++){
+        ourNumber += n[number_position]*Math.power(base1, i)
+    }
+    return ourNumber.toString(base2);
+}
+
+
+console.log(base2base (10, 2, 10))
